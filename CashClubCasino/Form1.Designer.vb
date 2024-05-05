@@ -186,7 +186,7 @@ Partial Class Form1
         Me.Controller.Location = New System.Drawing.Point(0, -20)
         Me.Controller.Name = "Controller"
         Me.Controller.SelectedIndex = 0
-        Me.Controller.Size = New System.Drawing.Size(1280, 706)
+        Me.Controller.Size = New System.Drawing.Size(1329, 736)
         Me.Controller.TabIndex = 0
         '
         'StartPage
@@ -209,7 +209,7 @@ Partial Class Form1
         Me.LoginMenuPanel.ColumnCount = 3
         Me.LoginMenuPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.30221!))
         Me.LoginMenuPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 88.69779!))
-        Me.LoginMenuPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 69.0!))
+        Me.LoginMenuPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 71.0!))
         Me.LoginMenuPanel.Controls.Add(Me.PictureBox1, 1, 0)
         Me.LoginMenuPanel.Controls.Add(Me.LoginMenu_QuitBtn, 1, 8)
         Me.LoginMenuPanel.Controls.Add(Me.Label1, 1, 3)
@@ -243,7 +243,7 @@ Partial Class Form1
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox1.Location = New System.Drawing.Point(43, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(313, 210)
+        Me.PictureBox1.Size = New System.Drawing.Size(311, 210)
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
@@ -254,7 +254,7 @@ Partial Class Form1
         Me.LoginMenu_QuitBtn.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LoginMenu_QuitBtn.Location = New System.Drawing.Point(43, 604)
         Me.LoginMenu_QuitBtn.Name = "LoginMenu_QuitBtn"
-        Me.LoginMenu_QuitBtn.Size = New System.Drawing.Size(313, 57)
+        Me.LoginMenu_QuitBtn.Size = New System.Drawing.Size(311, 57)
         Me.LoginMenu_QuitBtn.TabIndex = 1
         Me.LoginMenu_QuitBtn.Text = "Quit"
         Me.LoginMenu_QuitBtn.UseVisualStyleBackColor = True
@@ -265,7 +265,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(91, 338)
+        Me.Label1.Location = New System.Drawing.Point(90, 338)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(217, 37)
         Me.Label1.TabIndex = 5
@@ -277,7 +277,7 @@ Partial Class Form1
         Me.LoginMenu_NameTxt.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LoginMenu_NameTxt.Location = New System.Drawing.Point(43, 269)
         Me.LoginMenu_NameTxt.Name = "LoginMenu_NameTxt"
-        Me.LoginMenu_NameTxt.Size = New System.Drawing.Size(313, 35)
+        Me.LoginMenu_NameTxt.Size = New System.Drawing.Size(311, 35)
         Me.LoginMenu_NameTxt.TabIndex = 3
         '
         'Label2
@@ -286,7 +286,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(51, 229)
+        Me.Label2.Location = New System.Drawing.Point(50, 229)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(297, 37)
         Me.Label2.TabIndex = 6
@@ -298,7 +298,7 @@ Partial Class Form1
         Me.LoginMenu_AgeNum.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LoginMenu_AgeNum.Location = New System.Drawing.Point(43, 378)
         Me.LoginMenu_AgeNum.Name = "LoginMenu_AgeNum"
-        Me.LoginMenu_AgeNum.Size = New System.Drawing.Size(313, 35)
+        Me.LoginMenu_AgeNum.Size = New System.Drawing.Size(311, 35)
         Me.LoginMenu_AgeNum.TabIndex = 8
         Me.LoginMenu_AgeNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -310,7 +310,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44.68085!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.LoginMenu_plus1000Btn, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.LoginMenu_plus100Btn, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.LoginMenu_min100Btn, 3, 0)
@@ -322,7 +322,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(313, 42)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(311, 42)
         Me.TableLayoutPanel1.TabIndex = 9
         '
         'LoginMenu_plus1000Btn
@@ -333,7 +333,7 @@ Partial Class Form1
         Me.LoginMenu_plus1000Btn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.LoginMenu_plus1000Btn.Location = New System.Drawing.Point(3, 3)
         Me.LoginMenu_plus1000Btn.Name = "LoginMenu_plus1000Btn"
-        Me.LoginMenu_plus1000Btn.Size = New System.Drawing.Size(39, 36)
+        Me.LoginMenu_plus1000Btn.Size = New System.Drawing.Size(37, 36)
         Me.LoginMenu_plus1000Btn.TabIndex = 0
         Me.LoginMenu_plus1000Btn.Text = "+1000"
         Me.LoginMenu_plus1000Btn.UseVisualStyleBackColor = True
@@ -344,9 +344,9 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LoginMenu_plus100Btn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.LoginMenu_plus100Btn.Location = New System.Drawing.Point(48, 3)
+        Me.LoginMenu_plus100Btn.Location = New System.Drawing.Point(46, 3)
         Me.LoginMenu_plus100Btn.Name = "LoginMenu_plus100Btn"
-        Me.LoginMenu_plus100Btn.Size = New System.Drawing.Size(30, 36)
+        Me.LoginMenu_plus100Btn.Size = New System.Drawing.Size(28, 36)
         Me.LoginMenu_plus100Btn.TabIndex = 1
         Me.LoginMenu_plus100Btn.Text = "+100"
         Me.LoginMenu_plus100Btn.UseVisualStyleBackColor = True
@@ -357,7 +357,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LoginMenu_min100Btn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.LoginMenu_min100Btn.Location = New System.Drawing.Point(189, 3)
+        Me.LoginMenu_min100Btn.Location = New System.Drawing.Point(185, 3)
         Me.LoginMenu_min100Btn.Name = "LoginMenu_min100Btn"
         Me.LoginMenu_min100Btn.Size = New System.Drawing.Size(44, 36)
         Me.LoginMenu_min100Btn.TabIndex = 2
@@ -370,9 +370,9 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LoginMenu_min1000Btn.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.LoginMenu_min1000Btn.Location = New System.Drawing.Point(239, 3)
+        Me.LoginMenu_min1000Btn.Location = New System.Drawing.Point(235, 3)
         Me.LoginMenu_min1000Btn.Name = "LoginMenu_min1000Btn"
-        Me.LoginMenu_min1000Btn.Size = New System.Drawing.Size(71, 36)
+        Me.LoginMenu_min1000Btn.Size = New System.Drawing.Size(73, 36)
         Me.LoginMenu_min1000Btn.TabIndex = 3
         Me.LoginMenu_min1000Btn.Text = "-1000"
         Me.LoginMenu_min1000Btn.UseVisualStyleBackColor = True
@@ -384,7 +384,7 @@ Partial Class Form1
         Me.LoginMenu_CapitalLbl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LoginMenu_CapitalLbl.ForeColor = System.Drawing.SystemColors.ControlText
         Me.LoginMenu_CapitalLbl.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.LoginMenu_CapitalLbl.Location = New System.Drawing.Point(85, 4)
+        Me.LoginMenu_CapitalLbl.Location = New System.Drawing.Point(81, 4)
         Me.LoginMenu_CapitalLbl.Margin = New System.Windows.Forms.Padding(4)
         Me.LoginMenu_CapitalLbl.Name = "LoginMenu_CapitalLbl"
         Me.LoginMenu_CapitalLbl.Size = New System.Drawing.Size(97, 34)
@@ -398,7 +398,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label4.Location = New System.Drawing.Point(86, 431)
+        Me.Label4.Location = New System.Drawing.Point(85, 431)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(226, 37)
         Me.Label4.TabIndex = 10
@@ -412,7 +412,7 @@ Partial Class Form1
         Me.LoginMenu_LoginBtn.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LoginMenu_LoginBtn.Location = New System.Drawing.Point(43, 540)
         Me.LoginMenu_LoginBtn.Name = "LoginMenu_LoginBtn"
-        Me.LoginMenu_LoginBtn.Size = New System.Drawing.Size(313, 58)
+        Me.LoginMenu_LoginBtn.Size = New System.Drawing.Size(311, 58)
         Me.LoginMenu_LoginBtn.TabIndex = 0
         Me.LoginMenu_LoginBtn.Text = "Login"
         Me.LoginMenu_LoginBtn.UseVisualStyleBackColor = False
@@ -424,8 +424,9 @@ Partial Class Form1
         Me.BombSearchPage.Controls.Add(Me.GameLayout_Nav)
         Me.BombSearchPage.Controls.Add(Me.GameLayout_Panel)
         Me.BombSearchPage.Location = New System.Drawing.Point(4, 22)
+        Me.BombSearchPage.Margin = New System.Windows.Forms.Padding(0)
         Me.BombSearchPage.Name = "BombSearchPage"
-        Me.BombSearchPage.Size = New System.Drawing.Size(1272, 680)
+        Me.BombSearchPage.Size = New System.Drawing.Size(1321, 710)
         Me.BombSearchPage.TabIndex = 1
         Me.BombSearchPage.Text = "TabPage3"
         Me.BombSearchPage.UseVisualStyleBackColor = True
@@ -448,7 +449,7 @@ Partial Class Form1
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.52941!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 466.0!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 73.0!))
-        Me.TableLayoutPanel6.Size = New System.Drawing.Size(1011, 632)
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(1060, 662)
         Me.TableLayoutPanel6.TabIndex = 6
         '
         'TableLayoutPanel7
@@ -459,28 +460,27 @@ Partial Class Form1
         Me.TableLayoutPanel7.ColumnCount = 3
         Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 58.49057!))
         Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.50943!))
-        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 383.0!))
+        Me.TableLayoutPanel7.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 385.0!))
         Me.TableLayoutPanel7.Controls.Add(Me.BombSearch_CashOutBtn, 1, 0)
-        Me.TableLayoutPanel7.Location = New System.Drawing.Point(3, 561)
+        Me.TableLayoutPanel7.Location = New System.Drawing.Point(3, 591)
         Me.TableLayoutPanel7.Name = "TableLayoutPanel7"
         Me.TableLayoutPanel7.RowCount = 1
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel7.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel7.Size = New System.Drawing.Size(1005, 68)
+        Me.TableLayoutPanel7.Size = New System.Drawing.Size(1054, 68)
         Me.TableLayoutPanel7.TabIndex = 0
         '
         'BombSearch_CashOutBtn
         '
-        Me.BombSearch_CashOutBtn.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BombSearch_CashOutBtn.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.BombSearch_CashOutBtn.BackgroundImage = CType(resources.GetObject("BombSearch_CashOutBtn.BackgroundImage"), System.Drawing.Image)
         Me.BombSearch_CashOutBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BombSearch_CashOutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.BombSearch_CashOutBtn.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BombSearch_CashOutBtn.ForeColor = System.Drawing.Color.Transparent
-        Me.BombSearch_CashOutBtn.Location = New System.Drawing.Point(366, 3)
+        Me.BombSearch_CashOutBtn.Location = New System.Drawing.Point(404, 3)
         Me.BombSearch_CashOutBtn.Name = "BombSearch_CashOutBtn"
-        Me.BombSearch_CashOutBtn.Size = New System.Drawing.Size(252, 56)
+        Me.BombSearch_CashOutBtn.Size = New System.Drawing.Size(251, 56)
         Me.BombSearch_CashOutBtn.TabIndex = 0
         Me.BombSearch_CashOutBtn.Text = "Cash  Out"
         Me.BombSearch_CashOutBtn.UseVisualStyleBackColor = True
@@ -497,7 +497,7 @@ Partial Class Form1
         Me.BombSearch_GameBoard.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144.0!))
         Me.BombSearch_GameBoard.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 137.0!))
         Me.BombSearch_GameBoard.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 142.0!))
-        Me.BombSearch_GameBoard.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 162.0!))
+        Me.BombSearch_GameBoard.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 164.0!))
         Me.BombSearch_GameBoard.Controls.Add(Me.BombCell1, 1, 0)
         Me.BombSearch_GameBoard.Controls.Add(Me.BombCell2, 2, 0)
         Me.BombSearch_GameBoard.Controls.Add(Me.BombCell3, 3, 0)
@@ -523,7 +523,7 @@ Partial Class Form1
         Me.BombSearch_GameBoard.Controls.Add(Me.BombCell25, 5, 4)
         Me.BombSearch_GameBoard.Controls.Add(Me.BombCell14, 4, 2)
         Me.BombSearch_GameBoard.Controls.Add(Me.BombCell13, 3, 2)
-        Me.BombSearch_GameBoard.Location = New System.Drawing.Point(3, 95)
+        Me.BombSearch_GameBoard.Location = New System.Drawing.Point(3, 125)
         Me.BombSearch_GameBoard.Name = "BombSearch_GameBoard"
         Me.BombSearch_GameBoard.RowCount = 5
         Me.BombSearch_GameBoard.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -531,26 +531,28 @@ Partial Class Form1
         Me.BombSearch_GameBoard.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 94.0!))
         Me.BombSearch_GameBoard.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 94.0!))
         Me.BombSearch_GameBoard.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 93.0!))
-        Me.BombSearch_GameBoard.Size = New System.Drawing.Size(1005, 460)
+        Me.BombSearch_GameBoard.Size = New System.Drawing.Size(1054, 460)
         Me.BombSearch_GameBoard.TabIndex = 1
         '
         'BombCell1
         '
-        Me.BombCell1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell1.Location = New System.Drawing.Point(159, 3)
+        Me.BombCell1.Location = New System.Drawing.Point(184, 3)
         Me.BombCell1.Name = "BombCell1"
-        Me.BombCell1.Size = New System.Drawing.Size(121, 83)
+        Me.BombCell1.Size = New System.Drawing.Size(143, 83)
         Me.BombCell1.TabIndex = 0
         Me.BombCell1.TabStop = False
         '
         'BombCell2
         '
-        Me.BombCell2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell2.Location = New System.Drawing.Point(286, 3)
+        Me.BombCell2.Location = New System.Drawing.Point(333, 3)
         Me.BombCell2.Name = "BombCell2"
         Me.BombCell2.Size = New System.Drawing.Size(130, 83)
         Me.BombCell2.TabIndex = 1
@@ -558,10 +560,11 @@ Partial Class Form1
         '
         'BombCell3
         '
-        Me.BombCell3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell3.Location = New System.Drawing.Point(422, 3)
+        Me.BombCell3.Location = New System.Drawing.Point(469, 3)
         Me.BombCell3.Name = "BombCell3"
         Me.BombCell3.Size = New System.Drawing.Size(138, 83)
         Me.BombCell3.TabIndex = 2
@@ -569,10 +572,11 @@ Partial Class Form1
         '
         'BombCell4
         '
-        Me.BombCell4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell4.Location = New System.Drawing.Point(566, 3)
+        Me.BombCell4.Location = New System.Drawing.Point(613, 3)
         Me.BombCell4.Name = "BombCell4"
         Me.BombCell4.Size = New System.Drawing.Size(131, 83)
         Me.BombCell4.TabIndex = 3
@@ -580,10 +584,11 @@ Partial Class Form1
         '
         'BombCell5
         '
-        Me.BombCell5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell5.Location = New System.Drawing.Point(703, 3)
+        Me.BombCell5.Location = New System.Drawing.Point(750, 3)
         Me.BombCell5.Name = "BombCell5"
         Me.BombCell5.Size = New System.Drawing.Size(136, 83)
         Me.BombCell5.TabIndex = 4
@@ -591,21 +596,23 @@ Partial Class Form1
         '
         'BombCell6
         '
-        Me.BombCell6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell6.Location = New System.Drawing.Point(159, 92)
+        Me.BombCell6.Location = New System.Drawing.Point(184, 92)
         Me.BombCell6.Name = "BombCell6"
-        Me.BombCell6.Size = New System.Drawing.Size(121, 83)
+        Me.BombCell6.Size = New System.Drawing.Size(143, 83)
         Me.BombCell6.TabIndex = 5
         Me.BombCell6.TabStop = False
         '
         'BombCell7
         '
-        Me.BombCell7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell7.Location = New System.Drawing.Point(286, 92)
+        Me.BombCell7.Location = New System.Drawing.Point(333, 92)
         Me.BombCell7.Name = "BombCell7"
         Me.BombCell7.Size = New System.Drawing.Size(130, 83)
         Me.BombCell7.TabIndex = 6
@@ -613,10 +620,11 @@ Partial Class Form1
         '
         'BombCell8
         '
-        Me.BombCell8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell8.Location = New System.Drawing.Point(422, 92)
+        Me.BombCell8.Location = New System.Drawing.Point(469, 92)
         Me.BombCell8.Name = "BombCell8"
         Me.BombCell8.Size = New System.Drawing.Size(138, 83)
         Me.BombCell8.TabIndex = 7
@@ -624,10 +632,11 @@ Partial Class Form1
         '
         'BombCell9
         '
-        Me.BombCell9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell9.Location = New System.Drawing.Point(566, 92)
+        Me.BombCell9.Location = New System.Drawing.Point(613, 92)
         Me.BombCell9.Name = "BombCell9"
         Me.BombCell9.Size = New System.Drawing.Size(131, 83)
         Me.BombCell9.TabIndex = 8
@@ -635,10 +644,11 @@ Partial Class Form1
         '
         'BombCell10
         '
-        Me.BombCell10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell10.Location = New System.Drawing.Point(703, 92)
+        Me.BombCell10.Location = New System.Drawing.Point(750, 92)
         Me.BombCell10.Name = "BombCell10"
         Me.BombCell10.Size = New System.Drawing.Size(136, 83)
         Me.BombCell10.TabIndex = 9
@@ -646,173 +656,187 @@ Partial Class Form1
         '
         'BombCell11
         '
-        Me.BombCell11.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell11.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell11.Location = New System.Drawing.Point(159, 181)
+        Me.BombCell11.Location = New System.Drawing.Point(184, 181)
         Me.BombCell11.Name = "BombCell11"
-        Me.BombCell11.Size = New System.Drawing.Size(121, 83)
+        Me.BombCell11.Size = New System.Drawing.Size(143, 88)
         Me.BombCell11.TabIndex = 10
         Me.BombCell11.TabStop = False
         '
         'BombCell12
         '
-        Me.BombCell12.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell12.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell12.Location = New System.Drawing.Point(286, 181)
+        Me.BombCell12.Location = New System.Drawing.Point(333, 181)
         Me.BombCell12.Name = "BombCell12"
-        Me.BombCell12.Size = New System.Drawing.Size(130, 83)
+        Me.BombCell12.Size = New System.Drawing.Size(130, 88)
         Me.BombCell12.TabIndex = 11
         Me.BombCell12.TabStop = False
         '
         'BombCell15
         '
-        Me.BombCell15.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell15.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell15.Location = New System.Drawing.Point(703, 181)
+        Me.BombCell15.Location = New System.Drawing.Point(750, 181)
         Me.BombCell15.Name = "BombCell15"
-        Me.BombCell15.Size = New System.Drawing.Size(136, 83)
+        Me.BombCell15.Size = New System.Drawing.Size(136, 88)
         Me.BombCell15.TabIndex = 14
         Me.BombCell15.TabStop = False
         '
         'BombCell16
         '
-        Me.BombCell16.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell16.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell16.Location = New System.Drawing.Point(159, 275)
+        Me.BombCell16.Location = New System.Drawing.Point(184, 275)
         Me.BombCell16.Name = "BombCell16"
-        Me.BombCell16.Size = New System.Drawing.Size(121, 83)
+        Me.BombCell16.Size = New System.Drawing.Size(143, 88)
         Me.BombCell16.TabIndex = 15
         Me.BombCell16.TabStop = False
         '
         'BombCell17
         '
-        Me.BombCell17.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell17.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell17.Location = New System.Drawing.Point(286, 275)
+        Me.BombCell17.Location = New System.Drawing.Point(333, 275)
         Me.BombCell17.Name = "BombCell17"
-        Me.BombCell17.Size = New System.Drawing.Size(130, 83)
+        Me.BombCell17.Size = New System.Drawing.Size(130, 88)
         Me.BombCell17.TabIndex = 16
         Me.BombCell17.TabStop = False
         '
         'BombCell18
         '
-        Me.BombCell18.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell18.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell18.Location = New System.Drawing.Point(422, 275)
+        Me.BombCell18.Location = New System.Drawing.Point(469, 275)
         Me.BombCell18.Name = "BombCell18"
-        Me.BombCell18.Size = New System.Drawing.Size(138, 83)
+        Me.BombCell18.Size = New System.Drawing.Size(138, 88)
         Me.BombCell18.TabIndex = 17
         Me.BombCell18.TabStop = False
         '
         'BombCell19
         '
-        Me.BombCell19.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell19.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell19.Location = New System.Drawing.Point(566, 275)
+        Me.BombCell19.Location = New System.Drawing.Point(613, 275)
         Me.BombCell19.Name = "BombCell19"
-        Me.BombCell19.Size = New System.Drawing.Size(131, 83)
+        Me.BombCell19.Size = New System.Drawing.Size(131, 88)
         Me.BombCell19.TabIndex = 18
         Me.BombCell19.TabStop = False
         '
         'BombCell20
         '
-        Me.BombCell20.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell20.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell20.Location = New System.Drawing.Point(703, 275)
+        Me.BombCell20.Location = New System.Drawing.Point(750, 275)
         Me.BombCell20.Name = "BombCell20"
-        Me.BombCell20.Size = New System.Drawing.Size(136, 83)
+        Me.BombCell20.Size = New System.Drawing.Size(136, 88)
         Me.BombCell20.TabIndex = 19
         Me.BombCell20.TabStop = False
         '
         'BombCell21
         '
-        Me.BombCell21.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell21.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell21.Location = New System.Drawing.Point(159, 369)
+        Me.BombCell21.Location = New System.Drawing.Point(184, 369)
         Me.BombCell21.Name = "BombCell21"
-        Me.BombCell21.Size = New System.Drawing.Size(121, 83)
+        Me.BombCell21.Size = New System.Drawing.Size(143, 88)
         Me.BombCell21.TabIndex = 20
         Me.BombCell21.TabStop = False
         '
         'BombCell22
         '
-        Me.BombCell22.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell22.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell22.Location = New System.Drawing.Point(286, 369)
+        Me.BombCell22.Location = New System.Drawing.Point(333, 369)
         Me.BombCell22.Name = "BombCell22"
-        Me.BombCell22.Size = New System.Drawing.Size(130, 83)
+        Me.BombCell22.Size = New System.Drawing.Size(130, 88)
         Me.BombCell22.TabIndex = 21
         Me.BombCell22.TabStop = False
         '
         'BombCell23
         '
-        Me.BombCell23.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell23.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell23.Location = New System.Drawing.Point(422, 369)
+        Me.BombCell23.Location = New System.Drawing.Point(469, 369)
         Me.BombCell23.Name = "BombCell23"
-        Me.BombCell23.Size = New System.Drawing.Size(138, 83)
+        Me.BombCell23.Size = New System.Drawing.Size(138, 88)
         Me.BombCell23.TabIndex = 22
         Me.BombCell23.TabStop = False
         '
         'BombCell24
         '
-        Me.BombCell24.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell24.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell24.Location = New System.Drawing.Point(566, 369)
+        Me.BombCell24.Location = New System.Drawing.Point(613, 369)
         Me.BombCell24.Name = "BombCell24"
-        Me.BombCell24.Size = New System.Drawing.Size(131, 83)
+        Me.BombCell24.Size = New System.Drawing.Size(131, 88)
         Me.BombCell24.TabIndex = 23
         Me.BombCell24.TabStop = False
         '
         'BombCell25
         '
-        Me.BombCell25.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell25.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell25.Location = New System.Drawing.Point(703, 369)
+        Me.BombCell25.Location = New System.Drawing.Point(750, 369)
         Me.BombCell25.Name = "BombCell25"
-        Me.BombCell25.Size = New System.Drawing.Size(136, 83)
+        Me.BombCell25.Size = New System.Drawing.Size(136, 88)
         Me.BombCell25.TabIndex = 24
         Me.BombCell25.TabStop = False
         '
         'BombCell14
         '
-        Me.BombCell14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell14.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell14.Location = New System.Drawing.Point(566, 181)
+        Me.BombCell14.Location = New System.Drawing.Point(613, 181)
         Me.BombCell14.Name = "BombCell14"
-        Me.BombCell14.Size = New System.Drawing.Size(131, 83)
+        Me.BombCell14.Size = New System.Drawing.Size(131, 88)
         Me.BombCell14.TabIndex = 13
         Me.BombCell14.TabStop = False
         '
         'BombCell13
         '
-        Me.BombCell13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell13.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.BombCell13.Location = New System.Drawing.Point(422, 181)
+        Me.BombCell13.Location = New System.Drawing.Point(469, 181)
         Me.BombCell13.Name = "BombCell13"
-        Me.BombCell13.Size = New System.Drawing.Size(138, 83)
+        Me.BombCell13.Size = New System.Drawing.Size(138, 88)
         Me.BombCell13.TabIndex = 12
         Me.BombCell13.TabStop = False
         '
         'BombSearchStats
         '
-        Me.BombSearchStats.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombSearchStats.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombSearchStats.BackgroundImage = Global.CashClubCasino.My.Resources.Resources.dark_overlay
         Me.BombSearchStats.ColumnCount = 6
@@ -821,17 +845,17 @@ Partial Class Form1
         Me.BombSearchStats.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 204.0!))
         Me.BombSearchStats.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 286.0!))
         Me.BombSearchStats.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 277.0!))
-        Me.BombSearchStats.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 24.0!))
+        Me.BombSearchStats.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26.0!))
         Me.BombSearchStats.Controls.Add(Me.BombSearch_BetSize, 1, 0)
         Me.BombSearchStats.Controls.Add(Me.BombSearch_CurrentMultiplier, 2, 0)
         Me.BombSearchStats.Controls.Add(Me.BombSearch_CurrentProfit, 3, 0)
         Me.BombSearchStats.Controls.Add(Me.BombSearch_PossibleProfit, 4, 0)
-        Me.BombSearchStats.Location = New System.Drawing.Point(3, 50)
+        Me.BombSearchStats.Location = New System.Drawing.Point(3, 66)
         Me.BombSearchStats.Name = "BombSearchStats"
         Me.BombSearchStats.RowCount = 1
         Me.BombSearchStats.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.BombSearchStats.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.BombSearchStats.Size = New System.Drawing.Size(1005, 39)
+        Me.BombSearchStats.Size = New System.Drawing.Size(1054, 39)
         Me.BombSearchStats.TabIndex = 2
         '
         'BombSearch_BetSize
@@ -842,9 +866,9 @@ Partial Class Form1
         Me.BombSearch_BetSize.AutoSize = True
         Me.BombSearch_BetSize.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BombSearch_BetSize.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BombSearch_BetSize.Location = New System.Drawing.Point(10, 0)
+        Me.BombSearch_BetSize.Location = New System.Drawing.Point(12, 0)
         Me.BombSearch_BetSize.Name = "BombSearch_BetSize"
-        Me.BombSearch_BetSize.Size = New System.Drawing.Size(200, 39)
+        Me.BombSearch_BetSize.Size = New System.Drawing.Size(245, 39)
         Me.BombSearch_BetSize.TabIndex = 0
         Me.BombSearch_BetSize.Text = "Bet Size:"
         Me.BombSearch_BetSize.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -857,7 +881,7 @@ Partial Class Form1
         Me.BombSearch_CurrentMultiplier.AutoSize = True
         Me.BombSearch_CurrentMultiplier.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BombSearch_CurrentMultiplier.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BombSearch_CurrentMultiplier.Location = New System.Drawing.Point(216, 0)
+        Me.BombSearch_CurrentMultiplier.Location = New System.Drawing.Point(263, 0)
         Me.BombSearch_CurrentMultiplier.Name = "BombSearch_CurrentMultiplier"
         Me.BombSearch_CurrentMultiplier.Size = New System.Drawing.Size(198, 39)
         Me.BombSearch_CurrentMultiplier.TabIndex = 1
@@ -872,7 +896,7 @@ Partial Class Form1
         Me.BombSearch_CurrentProfit.AutoSize = True
         Me.BombSearch_CurrentProfit.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BombSearch_CurrentProfit.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BombSearch_CurrentProfit.Location = New System.Drawing.Point(420, 0)
+        Me.BombSearch_CurrentProfit.Location = New System.Drawing.Point(467, 0)
         Me.BombSearch_CurrentProfit.Name = "BombSearch_CurrentProfit"
         Me.BombSearch_CurrentProfit.Size = New System.Drawing.Size(280, 39)
         Me.BombSearch_CurrentProfit.TabIndex = 2
@@ -887,7 +911,7 @@ Partial Class Form1
         Me.BombSearch_PossibleProfit.AutoSize = True
         Me.BombSearch_PossibleProfit.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BombSearch_PossibleProfit.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BombSearch_PossibleProfit.Location = New System.Drawing.Point(706, 0)
+        Me.BombSearch_PossibleProfit.Location = New System.Drawing.Point(753, 0)
         Me.BombSearch_PossibleProfit.Name = "BombSearch_PossibleProfit"
         Me.BombSearch_PossibleProfit.Size = New System.Drawing.Size(271, 39)
         Me.BombSearch_PossibleProfit.TabIndex = 3
@@ -905,7 +929,7 @@ Partial Class Form1
         Me.GameLayout_Nav.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.91748!))
         Me.GameLayout_Nav.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 132.0!))
         Me.GameLayout_Nav.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 126.0!))
-        Me.GameLayout_Nav.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 152.0!))
+        Me.GameLayout_Nav.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 154.0!))
         Me.GameLayout_Nav.Controls.Add(Me.Label5, 3, 0)
         Me.GameLayout_Nav.Controls.Add(Me.GameLayout_BalanceLbl_BombSearch, 4, 0)
         Me.GameLayout_Nav.Controls.Add(Me.GameLayout_UsernameLbl_BombSearch, 0, 0)
@@ -919,7 +943,7 @@ Partial Class Form1
         Me.GameLayout_Nav.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
         Me.GameLayout_Nav.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
         Me.GameLayout_Nav.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
-        Me.GameLayout_Nav.Size = New System.Drawing.Size(1021, 50)
+        Me.GameLayout_Nav.Size = New System.Drawing.Size(1070, 50)
         Me.GameLayout_Nav.TabIndex = 5
         '
         'Label5
@@ -929,7 +953,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label5.Location = New System.Drawing.Point(771, 0)
+        Me.Label5.Location = New System.Drawing.Point(818, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(94, 50)
         Me.Label5.TabIndex = 0
@@ -943,7 +967,7 @@ Partial Class Form1
         Me.GameLayout_BalanceLbl_BombSearch.AutoSize = True
         Me.GameLayout_BalanceLbl_BombSearch.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GameLayout_BalanceLbl_BombSearch.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.GameLayout_BalanceLbl_BombSearch.Location = New System.Drawing.Point(871, 0)
+        Me.GameLayout_BalanceLbl_BombSearch.Location = New System.Drawing.Point(918, 0)
         Me.GameLayout_BalanceLbl_BombSearch.Name = "GameLayout_BalanceLbl_BombSearch"
         Me.GameLayout_BalanceLbl_BombSearch.Size = New System.Drawing.Size(66, 50)
         Me.GameLayout_BalanceLbl_BombSearch.TabIndex = 1
@@ -972,9 +996,9 @@ Partial Class Form1
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label8.Location = New System.Drawing.Point(382, 0)
+        Me.Label8.Location = New System.Drawing.Point(411, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(225, 50)
+        Me.Label8.Size = New System.Drawing.Size(243, 50)
         Me.Label8.TabIndex = 4
         Me.Label8.Text = "Bomb Search"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -988,7 +1012,7 @@ Partial Class Form1
         Me.GameLayout_Panel.ColumnCount = 3
         Me.GameLayout_Panel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.625669!))
         Me.GameLayout_Panel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.37433!))
-        Me.GameLayout_Panel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.GameLayout_Panel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 22.0!))
         Me.GameLayout_Panel.Controls.Add(Me.PictureBox2, 1, 1)
         Me.GameLayout_Panel.Controls.Add(Me.GameSelector_BombSearch, 1, 2)
         Me.GameLayout_Panel.Controls.Add(Me.BombSearchHelpBtn, 1, 4)
@@ -1006,7 +1030,7 @@ Partial Class Form1
         Me.GameLayout_Panel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 53.0!))
         Me.GameLayout_Panel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27.0!))
         Me.GameLayout_Panel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.GameLayout_Panel.Size = New System.Drawing.Size(243, 687)
+        Me.GameLayout_Panel.Size = New System.Drawing.Size(243, 717)
         Me.GameLayout_Panel.TabIndex = 4
         '
         'PictureBox2
@@ -1014,7 +1038,7 @@ Partial Class Form1
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox2.BackgroundImage = Global.CashClubCasino.My.Resources.Resources.image_removebg_preview
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox2.Location = New System.Drawing.Point(38, 10)
+        Me.PictureBox2.Location = New System.Drawing.Point(37, 13)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(166, 85)
         Me.PictureBox2.TabIndex = 0
@@ -1029,9 +1053,9 @@ Partial Class Form1
         Me.GameSelector_BombSearch.Controls.Add(Me.GameLayout_Selector_BlackJack)
         Me.GameSelector_BombSearch.Controls.Add(Me.Label3)
         Me.GameSelector_BombSearch.Controls.Add(Me.GameLayout_Selector_Self_BombSearch)
-        Me.GameSelector_BombSearch.Location = New System.Drawing.Point(24, 101)
+        Me.GameSelector_BombSearch.Location = New System.Drawing.Point(24, 131)
         Me.GameSelector_BombSearch.Name = "GameSelector_BombSearch"
-        Me.GameSelector_BombSearch.Size = New System.Drawing.Size(195, 194)
+        Me.GameSelector_BombSearch.Size = New System.Drawing.Size(193, 194)
         Me.GameSelector_BombSearch.TabIndex = 2
         Me.GameSelector_BombSearch.TabStop = False
         '
@@ -1097,9 +1121,9 @@ Partial Class Form1
         Me.BombSearchHelpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.BombSearchHelpBtn.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BombSearchHelpBtn.ForeColor = System.Drawing.Color.Transparent
-        Me.BombSearchHelpBtn.Location = New System.Drawing.Point(24, 560)
+        Me.BombSearchHelpBtn.Location = New System.Drawing.Point(24, 590)
         Me.BombSearchHelpBtn.Name = "BombSearchHelpBtn"
-        Me.BombSearchHelpBtn.Size = New System.Drawing.Size(195, 43)
+        Me.BombSearchHelpBtn.Size = New System.Drawing.Size(193, 43)
         Me.BombSearchHelpBtn.TabIndex = 4
         Me.BombSearchHelpBtn.Text = "Help"
         Me.BombSearchHelpBtn.UseVisualStyleBackColor = True
@@ -1113,9 +1137,9 @@ Partial Class Form1
         Me.LogoutBtn_BombSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.LogoutBtn_BombSearch.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LogoutBtn_BombSearch.ForeColor = System.Drawing.Color.Transparent
-        Me.LogoutBtn_BombSearch.Location = New System.Drawing.Point(24, 609)
+        Me.LogoutBtn_BombSearch.Location = New System.Drawing.Point(24, 639)
         Me.LogoutBtn_BombSearch.Name = "LogoutBtn_BombSearch"
-        Me.LogoutBtn_BombSearch.Size = New System.Drawing.Size(195, 44)
+        Me.LogoutBtn_BombSearch.Size = New System.Drawing.Size(193, 44)
         Me.LogoutBtn_BombSearch.TabIndex = 3
         Me.LogoutBtn_BombSearch.Text = "Logout"
         Me.LogoutBtn_BombSearch.UseVisualStyleBackColor = True
@@ -1129,9 +1153,9 @@ Partial Class Form1
         Me.PlayBombSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.PlayBombSearchBtn.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PlayBombSearchBtn.ForeColor = System.Drawing.Color.Transparent
-        Me.PlayBombSearchBtn.Location = New System.Drawing.Point(24, 391)
+        Me.PlayBombSearchBtn.Location = New System.Drawing.Point(24, 421)
         Me.PlayBombSearchBtn.Name = "PlayBombSearchBtn"
-        Me.PlayBombSearchBtn.Size = New System.Drawing.Size(195, 74)
+        Me.PlayBombSearchBtn.Size = New System.Drawing.Size(193, 74)
         Me.PlayBombSearchBtn.TabIndex = 25
         Me.PlayBombSearchBtn.Text = "Play Bomb Search"
         Me.PlayBombSearchBtn.UseVisualStyleBackColor = False
@@ -1159,7 +1183,7 @@ Partial Class Form1
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.54224!))
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 137.0!))
         Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 126.0!))
-        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 152.0!))
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 154.0!))
         Me.TableLayoutPanel4.Controls.Add(Me.Label10, 3, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.GameLayout_BalanceLbl_BlackJack, 4, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.GameLayout_UsernameLbl_BlackJack, 0, 0)
@@ -1185,7 +1209,7 @@ Partial Class Form1
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label10.Location = New System.Drawing.Point(771, 0)
+        Me.Label10.Location = New System.Drawing.Point(769, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(94, 50)
         Me.Label10.TabIndex = 0
@@ -1199,7 +1223,7 @@ Partial Class Form1
         Me.GameLayout_BalanceLbl_BlackJack.AutoSize = True
         Me.GameLayout_BalanceLbl_BlackJack.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GameLayout_BalanceLbl_BlackJack.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.GameLayout_BalanceLbl_BlackJack.Location = New System.Drawing.Point(871, 0)
+        Me.GameLayout_BalanceLbl_BlackJack.Location = New System.Drawing.Point(869, 0)
         Me.GameLayout_BalanceLbl_BlackJack.Name = "GameLayout_BalanceLbl_BlackJack"
         Me.GameLayout_BalanceLbl_BlackJack.Size = New System.Drawing.Size(66, 50)
         Me.GameLayout_BalanceLbl_BlackJack.TabIndex = 1
@@ -1226,9 +1250,9 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(387, 0)
+        Me.Label7.Location = New System.Drawing.Point(386, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(215, 50)
+        Me.Label7.Size = New System.Drawing.Size(214, 50)
         Me.Label7.TabIndex = 4
         Me.Label7.Text = "Black Jack"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1242,7 +1266,7 @@ Partial Class Form1
         Me.TableLayoutPanel5.ColumnCount = 3
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.625669!))
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.37433!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 21.0!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 23.0!))
         Me.TableLayoutPanel5.Controls.Add(Me.PictureBox4, 1, 1)
         Me.TableLayoutPanel5.Controls.Add(Me.GameSelector_BlackJack, 1, 2)
         Me.TableLayoutPanel5.Controls.Add(Me.LogoutBtn_BlackJack, 1, 5)
@@ -1268,7 +1292,7 @@ Partial Class Form1
         Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox4.BackgroundImage = Global.CashClubCasino.My.Resources.Resources.image_removebg_preview
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox4.Location = New System.Drawing.Point(38, 14)
+        Me.PictureBox4.Location = New System.Drawing.Point(37, 14)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(166, 117)
         Me.PictureBox4.TabIndex = 0
@@ -1350,7 +1374,7 @@ Partial Class Form1
         Me.LogoutBtn_BlackJack.ForeColor = System.Drawing.Color.Transparent
         Me.LogoutBtn_BlackJack.Location = New System.Drawing.Point(24, 615)
         Me.LogoutBtn_BlackJack.Name = "LogoutBtn_BlackJack"
-        Me.LogoutBtn_BlackJack.Size = New System.Drawing.Size(194, 44)
+        Me.LogoutBtn_BlackJack.Size = New System.Drawing.Size(192, 44)
         Me.LogoutBtn_BlackJack.TabIndex = 3
         Me.LogoutBtn_BlackJack.Text = "Logout"
         Me.LogoutBtn_BlackJack.UseVisualStyleBackColor = True
@@ -1366,7 +1390,7 @@ Partial Class Form1
         Me.PlayBlackJackBtn.ForeColor = System.Drawing.Color.Transparent
         Me.PlayBlackJackBtn.Location = New System.Drawing.Point(24, 419)
         Me.PlayBlackJackBtn.Name = "PlayBlackJackBtn"
-        Me.PlayBlackJackBtn.Size = New System.Drawing.Size(194, 74)
+        Me.PlayBlackJackBtn.Size = New System.Drawing.Size(192, 74)
         Me.PlayBlackJackBtn.TabIndex = 26
         Me.PlayBlackJackBtn.Text = "Play Black Jack"
         Me.PlayBlackJackBtn.UseVisualStyleBackColor = False
@@ -1382,7 +1406,7 @@ Partial Class Form1
         Me.BlackJackHelpBtn.ForeColor = System.Drawing.Color.Transparent
         Me.BlackJackHelpBtn.Location = New System.Drawing.Point(24, 565)
         Me.BlackJackHelpBtn.Name = "BlackJackHelpBtn"
-        Me.BlackJackHelpBtn.Size = New System.Drawing.Size(194, 43)
+        Me.BlackJackHelpBtn.Size = New System.Drawing.Size(192, 43)
         Me.BlackJackHelpBtn.TabIndex = 4
         Me.BlackJackHelpBtn.Text = "Help"
         Me.BlackJackHelpBtn.UseVisualStyleBackColor = True
@@ -1410,7 +1434,7 @@ Partial Class Form1
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.36426!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 146.0!))
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 126.0!))
-        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 152.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 154.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Label6, 3, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.GameLayout_BalanceLbl_SlotMachines, 4, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.GameLayout_UsernameLbl_SlotMachines, 0, 0)
@@ -1434,7 +1458,7 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label6.Location = New System.Drawing.Point(771, 0)
+        Me.Label6.Location = New System.Drawing.Point(769, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(94, 50)
         Me.Label6.TabIndex = 0
@@ -1448,7 +1472,7 @@ Partial Class Form1
         Me.GameLayout_BalanceLbl_SlotMachines.AutoSize = True
         Me.GameLayout_BalanceLbl_SlotMachines.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GameLayout_BalanceLbl_SlotMachines.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.GameLayout_BalanceLbl_SlotMachines.Location = New System.Drawing.Point(871, 0)
+        Me.GameLayout_BalanceLbl_SlotMachines.Location = New System.Drawing.Point(869, 0)
         Me.GameLayout_BalanceLbl_SlotMachines.Name = "GameLayout_BalanceLbl_SlotMachines"
         Me.GameLayout_BalanceLbl_SlotMachines.Size = New System.Drawing.Size(66, 50)
         Me.GameLayout_BalanceLbl_SlotMachines.TabIndex = 1
@@ -1477,9 +1501,9 @@ Partial Class Form1
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label11.Location = New System.Drawing.Point(394, 0)
+        Me.Label11.Location = New System.Drawing.Point(393, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(199, 50)
+        Me.Label11.Size = New System.Drawing.Size(198, 50)
         Me.Label11.TabIndex = 4
         Me.Label11.Text = "Slot Machine"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1641,10 +1665,15 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.ClientSize = New System.Drawing.Size(1313, 711)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Controller)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ShowIcon = False
+        Me.Text = "Cash Club Casino"
         Me.Controller.ResumeLayout(False)
         Me.StartPage.ResumeLayout(False)
         Me.LoginMenuPanel.ResumeLayout(False)
