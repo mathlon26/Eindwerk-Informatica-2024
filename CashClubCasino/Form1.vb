@@ -1,6 +1,8 @@
 ﻿Imports System.Diagnostics.Eventing.Reader
 
 Public Class Form1
+    Dim DEBUG_MODE As Boolean
+
     Dim player As Player
     Dim welcomeUserLabels As Label()  '// list of labels
     Dim balanceLabels As Label()
@@ -8,6 +10,8 @@ Public Class Form1
     Dim canNavigate As Boolean
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        DEBUG_MODE = True
 
         canNavigate = True
 
@@ -30,7 +34,21 @@ Public Class Form1
 
     ' // Page Loading //
     Private Sub LoadStart()
-        Controller.SelectedTab = StartPage
+        If DEBUG_MODE = True Then
+            player = New Player With {
+            .age = 19,
+            .balance = "10000",
+            .game = Game.BombSearch, ' // First game 
+            .name = "DevName"
+        }
+
+            '// Update labels
+            AddBalance(0)
+            UpdateUserName()
+            LoadBombSearcher()
+        Else
+            Controller.SelectedTab = StartPage
+        End If
     End Sub
     Private Sub LoadBombSearcher()
         Controller.SelectedTab = BombSearchPage
@@ -115,6 +133,9 @@ Public Class Form1
     End Sub
 
     Private Sub Logout()
+        If DEBUG_MODE = True Then
+            Me.Close()
+        End If
         If canNavigate Then
             player = New Player With {
             .balance = 0,
@@ -289,27 +310,45 @@ Public Class Form1
         BombSearch_Play()
     End Sub
     Private Sub BombSearch_Play()
-        bombSearchGame.bombs = GetBombsInput()
-        While bombSearchGame.bombs > 20 Or bombSearchGame.bombs < 5
-            MsgBox("You can only enter between 5 and 20 bombs ")
-            bombSearchGame.bombs = GetBombsInput()
+
+
+        Dim validInput = False
+        While Not validInput
+            Try
+                bombSearchGame.bombs = GetBombsInput()
+                validInput = True
+                If bombSearchGame.bombs > 20 Or bombSearchGame.bombs < 5 Then
+                    MsgBox("You can only enter between 5 and 20 bombs ")
+                    validInput = False
+                End If
+            Catch ex As Exception
+                validInput = False
+            End Try
         End While
 
+        validInput = False
         bombSearchGame.betSize = 0
-        While bombSearchGame.betSize = 0
-            Dim temp_input_betsize = GetBombSearchBetSize()
-            Dim betSize_double As Double
-            If temp_input_betsize.ToString().ToLower() = "max" Then
-                bombSearchGame.betSize = player.balance
-            ElseIf Double.TryParse(temp_input_betsize, betSize_double) Then
-                If temp_input_betsize >= 100 And temp_input_betsize <= player.balance Then
-                    bombSearchGame.betSize = temp_input_betsize
+        While bombSearchGame.betSize = 0 Or validInput = False
+            Try
+                Dim temp_input_betsize = GetBombSearchBetSize()
+                Dim betSize_double As Double
+                If temp_input_betsize.ToString().ToLower() = "max" Then
+                    bombSearchGame.betSize = player.balance
+                ElseIf Double.TryParse(temp_input_betsize, betSize_double) Then
+                    If temp_input_betsize >= 100 And temp_input_betsize <= player.balance Then
+                        bombSearchGame.betSize = temp_input_betsize
+                    ElseIf temp_input_betsize > player.balance Then
+                        MsgBox("Invalid bet size, your bet size must be smaller or equal to " & player.balance & "$!")
+                    Else
+                        MsgBox("Invalid bet size, your bet size must be greater or equal to 100$!")
+                    End If
                 Else
-                    MsgBox("Invalid bet size, note: your bet size must be greater or equal to 100$!")
+                    MsgBox("Invalid Input, your bet size must be all numbers!")
                 End If
-            Else
-                MsgBox("Invalid Input, note: your bet size must be all numbers!")
-            End If
+                validInput = True
+            Catch ex As Exception
+                validInput = False
+            End Try
         End While
 
         player.balance -= bombSearchGame.betSize
@@ -632,8 +671,6 @@ Public Class Form1
     Private Sub StartPage_Click(sender As Object, e As EventArgs) Handles StartPage.Click
 
     End Sub
-
-
 
     ' // Tot hier
 

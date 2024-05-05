@@ -323,6 +323,8 @@ Partial Class Form1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 140.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.LoginMenu_plus1000Btn, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.LoginMenu_plus100Btn, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.LoginMenu_min100Btn, 3, 0)
@@ -493,8 +495,7 @@ Partial Class Form1
         '
         'BombSearch_CashOutBtn
         '
-        Me.BombSearch_CashOutBtn.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BombSearch_CashOutBtn.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.BombSearch_CashOutBtn.BackgroundImage = CType(resources.GetObject("BombSearch_CashOutBtn.BackgroundImage"), System.Drawing.Image)
         Me.BombSearch_CashOutBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BombSearch_CashOutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup
@@ -560,7 +561,8 @@ Partial Class Form1
         '
         'BombCell1
         '
-        Me.BombCell1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell1.Location = New System.Drawing.Point(210, 4)
@@ -572,7 +574,8 @@ Partial Class Form1
         '
         'BombCell2
         '
-        Me.BombCell2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell2.Location = New System.Drawing.Point(379, 4)
@@ -584,7 +587,8 @@ Partial Class Form1
         '
         'BombCell3
         '
-        Me.BombCell3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell3.Location = New System.Drawing.Point(560, 4)
@@ -596,7 +600,8 @@ Partial Class Form1
         '
         'BombCell4
         '
-        Me.BombCell4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell4.Location = New System.Drawing.Point(752, 4)
@@ -608,7 +613,8 @@ Partial Class Form1
         '
         'BombCell5
         '
-        Me.BombCell5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell5.Location = New System.Drawing.Point(935, 4)
@@ -620,7 +626,8 @@ Partial Class Form1
         '
         'BombCell6
         '
-        Me.BombCell6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell6.Location = New System.Drawing.Point(210, 114)
@@ -632,7 +639,8 @@ Partial Class Form1
         '
         'BombCell7
         '
-        Me.BombCell7.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell7.Location = New System.Drawing.Point(379, 114)
@@ -644,7 +652,8 @@ Partial Class Form1
         '
         'BombCell8
         '
-        Me.BombCell8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell8.Location = New System.Drawing.Point(560, 114)
@@ -656,7 +665,8 @@ Partial Class Form1
         '
         'BombCell9
         '
-        Me.BombCell9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell9.Location = New System.Drawing.Point(752, 114)
@@ -668,7 +678,8 @@ Partial Class Form1
         '
         'BombCell10
         '
-        Me.BombCell10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell10.Location = New System.Drawing.Point(935, 114)
@@ -680,7 +691,8 @@ Partial Class Form1
         '
         'BombCell11
         '
-        Me.BombCell11.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell11.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell11.Location = New System.Drawing.Point(210, 224)
@@ -692,7 +704,8 @@ Partial Class Form1
         '
         'BombCell12
         '
-        Me.BombCell12.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell12.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell12.Location = New System.Drawing.Point(379, 224)
@@ -704,7 +717,8 @@ Partial Class Form1
         '
         'BombCell15
         '
-        Me.BombCell15.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell15.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell15.Location = New System.Drawing.Point(935, 224)
@@ -716,7 +730,8 @@ Partial Class Form1
         '
         'BombCell16
         '
-        Me.BombCell16.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell16.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell16.Location = New System.Drawing.Point(210, 340)
@@ -728,19 +743,20 @@ Partial Class Form1
         '
         'BombCell17
         '
-        Me.BombCell17.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell17.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell17.Location = New System.Drawing.Point(379, 340)
         Me.BombCell17.Margin = New System.Windows.Forms.Padding(4)
         Me.BombCell17.Name = "BombCell17"
-        Me.BombCell17.Size = New System.Drawing.Size(173, 102)
         Me.BombCell17.TabIndex = 16
         Me.BombCell17.TabStop = False
         '
         'BombCell18
         '
-        Me.BombCell18.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell18.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell18.Location = New System.Drawing.Point(560, 340)
@@ -752,7 +768,8 @@ Partial Class Form1
         '
         'BombCell19
         '
-        Me.BombCell19.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell19.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell19.Location = New System.Drawing.Point(752, 340)
@@ -764,7 +781,8 @@ Partial Class Form1
         '
         'BombCell20
         '
-        Me.BombCell20.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell20.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell20.Location = New System.Drawing.Point(935, 340)
@@ -776,7 +794,8 @@ Partial Class Form1
         '
         'BombCell21
         '
-        Me.BombCell21.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell21.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell21.Location = New System.Drawing.Point(210, 456)
@@ -788,7 +807,8 @@ Partial Class Form1
         '
         'BombCell22
         '
-        Me.BombCell22.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell22.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell22.Location = New System.Drawing.Point(379, 456)
@@ -800,7 +820,8 @@ Partial Class Form1
         '
         'BombCell23
         '
-        Me.BombCell23.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell23.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell23.Location = New System.Drawing.Point(560, 456)
@@ -812,7 +833,8 @@ Partial Class Form1
         '
         'BombCell24
         '
-        Me.BombCell24.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell24.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell24.Location = New System.Drawing.Point(752, 456)
@@ -824,7 +846,8 @@ Partial Class Form1
         '
         'BombCell25
         '
-        Me.BombCell25.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell25.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell25.Location = New System.Drawing.Point(935, 456)
@@ -836,7 +859,8 @@ Partial Class Form1
         '
         'BombCell14
         '
-        Me.BombCell14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell14.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell14.Location = New System.Drawing.Point(752, 224)
@@ -848,7 +872,8 @@ Partial Class Form1
         '
         'BombCell13
         '
-        Me.BombCell13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombCell13.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombCell13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.BombCell13.Location = New System.Drawing.Point(560, 224)
@@ -860,8 +885,7 @@ Partial Class Form1
         '
         'BombSearchStats
         '
-        Me.BombSearchStats.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.BombSearchStats.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BombSearchStats.BackgroundImage = Global.CashClubCasino.My.Resources.Resources.dark_overlay
         Me.BombSearchStats.ColumnCount = 6
@@ -1751,11 +1775,15 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1685, 838)
+        Me.ClientSize = New System.Drawing.Size(1313, 711)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Controller)
-        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ShowIcon = False
+        Me.Text = "Cash Club Casino"
         Me.Controller.ResumeLayout(False)
         Me.StartPage.ResumeLayout(False)
         Me.LoginMenuPanel.ResumeLayout(False)
