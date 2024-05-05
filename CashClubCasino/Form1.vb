@@ -251,6 +251,10 @@ Public Class Form1
     End Function
 
     Private Sub PlayBombSearchBtn_Click(sender As Object, e As EventArgs) Handles PlayBombSearchBtn.Click
+        If player.balance < 100 Then
+            MsgBox("You don't have enough money to play this game!")
+            Return
+        End If
         DisableNavigation()
         Dim bombCells As PictureBox() = New PictureBox() {
             BombCell1,
@@ -527,6 +531,10 @@ Public Class Form1
         Logout()
     End Sub
 
+    Private Sub GenerateSlotMachineGrid()
+
+    End Sub
+
     ' // Vanaf Hier kunt ge doen wat ge wilt
     Private Sub SlotMachines_Load()
         '// Deze functie wordt opgeroepen zodra het spel wordt ingeladen
@@ -538,10 +546,75 @@ Public Class Form1
 
 
     End Sub
+
+    Dim slotMachineGame As New SlotMachine()
+
+    Private Sub LoadSlotMachinesGrid()
+        For i = 0 To 3
+            Dim temp_list As List(Of Bitmap)
+            For j = 0 To 6
+                temp_list.Add(slotMachineGame.symbols(Int((0 - 5 + 1) * Rnd() + 0)))
+            Next
+            slotMachineGame.grid.Add(temp_list)
+        Next
+    End Sub
+
+    Dim indexK1 As Integer
+    Dim indexK2 As Integer
+    Dim indexK3 As Integer
+    Private Sub Draai()
+        SlotMachineTimer.Start()
+        indexK1 = Int((0 - 5 + 1) * Rnd() + 0)
+        indexK2 = Int((0 - 5 + 1) * Rnd() + 0)
+        indexK3 = Int((0 - 5 + 1) * Rnd() + 0)
+
+    End Sub
+
+
+    Dim time As Integer
+    Private Sub SlotMachineTimer_Tick(sender As Object, e As EventArgs) Handles SlotMachineTimer.Tick
+        time = time + 1
+        Dim modulusK1 = (time Mod 5)
+        Dim modulusK2 = (time Mod 2)
+        Dim modulusK3 = (time Mod 5)
+
+        If modulusK1 = 0 Then
+            indexK1 = indexK1 + 1
+            ' img update per index
+        ElseIf modulusK2 = 0 Then
+            indexK2 = indexK2 + 1
+            ' img update per index
+
+        ElseIf modulusK3 = 0 Then
+            indexK3 = indexK3 + 1
+            ' img update per index
+
+        End If
+
+    End Sub
+
+    Private Function DidIWin() As Boolean
+        If slotMachineGame.grid(0)(indexK1).Equals(slotMachineGame.grid(1)(indexK2)) And slotMachineGame.grid(0)(indexK1).Equals(slotMachineGame.grid(2)(indexK3)) Then
+            'GEWON ENNND
+        End If
+
+    End Function
+
     Private Sub PlaySlotMachinesBtn_Click(sender As Object, e As EventArgs) Handles PlaySlotMachinesBtn.Click
         ' Deze Functie wordt opgeroepen wanneer je op de play knop drukt (start spel)
-        DisableNavigation() ' Speler mag niet naar een andere pagina tijdens een spel (laat dit vanboven staan)
+        If player.balance < 100 Then
+            MsgBox("You don't have enough money to play this game!")
+            Return
+        End If
 
+        DisableNavigation() ' Speler mag niet naar een andere pagina tijdens een spel (laat dit vanboven staan)
+        slotMachineGame.ended = False
+        slotMachineGame.betSize = 0
+        Dim chanceIndex = Int((0 - 10 + 1) * Rnd() + 0)
+        Dim chances = {0.0, 0.0, 0.0, 0.0, 0.1, 0.1, 0.3, 1.0, 0.0, 0.1}
+        slotMachineGame.chance = chances(chanceIndex)
+        slotMachineGame.symbols = {My.Resources.bar, My.Resources.banaan, My.Resources.bel, My.Resources._7, My.Resources.meloen, My.Resources.citroen}
+        LoadSlotMachinesGrid()
     End Sub
 
     Private Sub EndSlotMachines()
@@ -555,6 +628,12 @@ Public Class Form1
 
 
     End Sub
+
+    Private Sub StartPage_Click(sender As Object, e As EventArgs) Handles StartPage.Click
+
+    End Sub
+
+
 
     ' // Tot hier
 
@@ -581,4 +660,12 @@ Structure BombSearch
     Public ended As Boolean
     Public betSize As Double
     Public bombCells As PictureBox()
+End Structure
+
+Structure SlotMachine
+    Public chance As Double
+    Public symbols As Bitmap()
+    Public grid As List(Of List(Of Bitmap))
+    Public betSize As Double
+    Public ended As Boolean
 End Structure
