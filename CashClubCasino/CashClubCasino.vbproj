@@ -141,7 +141,13 @@
     <None Include="Resources\QuestionBombCard.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\7.png" />
+    <Content Include="Resources\banaan.png" />
+    <Content Include="Resources\bar.png" />
+    <Content Include="Resources\bel.png" />
     <Content Include="Resources\button.png" />
+    <Content Include="Resources\citroen.png" />
+    <Content Include="Resources\meloen.png" />
     <None Include="Resources\button1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
